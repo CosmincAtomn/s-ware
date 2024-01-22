@@ -1,0 +1,35 @@
+/* header css */
+
+body{
+    background-image:url("img4.jpg");
+    background-size:20%,20%;
+}
+
+.headerHead{
+    height:200px;
+    background-color:transparent;    
+    /* background-color:antiquewhite;     */
+    /* background-image:url("img4.jpg"); */
+    /* background-size:30%; */
+
+    color:blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border:1px solid green;
+    /* display:flex; */
+}
+
+.headerHead .head2{
+    width:100%;
+    /* float:left; */
+    /* display:flex; */
+    position:relative;
+    top:30%;
+
+}
+
+.headerHead .head2 .head_h1{
+    text-align:center;
+    top:50px;
+    font-size:88px;
+    color:black
+}
